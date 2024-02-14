@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import hasFunctionNameSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-function-name-support@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-has-function-name-support/tags). For example,
+
+```javascript
 import hasFunctionNameSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-function-name-support@v0.2.0-deno/mod.js';
 ```
 
@@ -65,7 +70,7 @@ var bool = hasFunctionNameSupport();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import hasFunctionNameSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-function-name-support@v0.2.0-deno/mod.js';
+import hasFunctionNameSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-function-name-support@deno/mod.js';
 
 var bool = hasFunctionNameSupport();
 if ( bool ) {
