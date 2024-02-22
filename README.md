@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import hasFunctionNameSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-function-name-support@deno/mod.js';
+import hasFunctionNameSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-function-name-support@v0.2.1-deno/mod.js';
 ```
 
 #### hasFunctionNameSupport()
@@ -65,7 +65,7 @@ var bool = hasFunctionNameSupport();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import hasFunctionNameSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-function-name-support@deno/mod.js';
+import hasFunctionNameSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-function-name-support@v0.2.1-deno/mod.js';
 
 var bool = hasFunctionNameSupport();
 if ( bool ) {
